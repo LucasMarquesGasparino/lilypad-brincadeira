@@ -1,0 +1,10 @@
+{
+  "name": "Lilypad — brinca comigo",
+  "short_name": "Lilypad",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5a5c3",
+  "theme_color": "#f7a8c5",
+  "description": "Uma tablet-amiguinha com olhos curiosos, boca tagarela e quatro falas para brincar."
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+    <meta name="theme-color" content="#f5a5c3">
+    <meta name="description" content="Lilypad">
+    <title>Lilypad</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="visual-only">
+    <div class="grain" aria-hidden="true"></div>
+    <main id="visualApp" aria-label="Lilypad">
+      <div id="playfield" class="screen" tabindex="0" role="button" aria-label="Lilypad. Toque na tela.">
+        <div id="face" class="face" aria-label="Rosto da Lilypad">
+          <button id="leftEye" class="eye eye-left interactive-face" type="button" aria-label="Olho esquerdo">
+            <span class="eye-ball">
+              <span class="eye-lash lash-left" aria-hidden="true"></span>
+              <span class="pupil"><i></i></span>
+            </span>
+            <img class="sprite-reference sprite-eye-left" src="assets/sprites/eye_cute_light.png" alt="">
+          </button>
+          <button id="rightEye" class="eye eye-right interactive-face" type="button" aria-label="Olho direito">
+            <span class="eye-ball">
+              <span class="eye-lash lash-right" aria-hidden="true"></span>
+              <span class="pupil"><i></i></span>
+            </span>
+            <img class="sprite-reference sprite-eye-right" src="assets/sprites/eye_cute_light.png" alt="">
+          </button>
+          <button id="mouth" class="mouth interactive-face" type="button" aria-label="Boca">
+            <svg class="mouth-svg" viewBox="0 0 220 110" role="img" aria-label="Boca sorrindo">
+              <path class="mouth-shadow" d="M34 52c38 44 116 46 154-1" />
+              <path class="mouth-line" d="M34 49c38 39 116 42 154-1" />
+              <path class="mouth-smile" d="M53 62c30 20 84 21 114-1" />
+              <path class="mouth-open" d="M52 57c32 30 84 30 117 0-7 36-31 46-59 46S61 92 52 57Z" />
+              <path class="mouth-glow" d="M71 76c21 10 49 10 72 0" />
+            </svg>
+            <img class="sprite-reference sprite-mouth" src="assets/sprites/mouth_closed_happy.png" alt="">
+          </button>
+        </div>
+        <div id="sparkles" class="sparkles" aria-hidden="true"></div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
